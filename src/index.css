@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+ul li {
+    list-style: none;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.dropdown ul {
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
+
+.dropdown ul li {
+    color: #999;
+}
+
+.titleApp {
+    color: #666;
+    margin: 10px 0px;
+}
+
+.titleFilter,
+.titleSort {
+    display: inline-block;
+    font-size: 17px;
+    color: #999;
+}
+
+.titleFilter {
+    margin-left: 10px;
+}
